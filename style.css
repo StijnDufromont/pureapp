@@ -1,6 +1,35 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
 a {
     color: #000;
     text-decoration: none;
+}
+
+.btn {
+	width: 300px;
+	float: left;
+	margin-left: 300px;
+	margin-bottom: 10px;
+}
+
+#presentation-navigation {
+	position: fixed;
+	bottom: 10px;
+	left:10%;
+	width: 80%;
+	
+}
+
+#presentation-navigation .btn{
+	width: 100px;
+	margin: 0;
+}
+
+.btn-next {
+	float: right;
 }
 
 
