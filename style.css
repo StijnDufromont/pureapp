@@ -44,9 +44,11 @@ a {
     margin-left: 185px;
 }
 
-/******************
-Aboutpages
-******************/
+.actions {
+	margin-left: 630px;
+	margin-top: 20px;
+}
+
 .allDistricts {
     float: left;
     border: 1px solid #02AAFC;

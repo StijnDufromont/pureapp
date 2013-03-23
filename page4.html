@@ -56,7 +56,46 @@
             <a class="24" href="#">Stationsbuurt Noord</a>
             <a class="25" href="#">Watersportbaan - Ekkergem</a>
     </ul>    
-        
+    
+    <div class="maps"></div>
+     
+    <div class="actions">  
+	    <select name="category">
+	        <option value="0">Stadsontwikkeling</option>
+	        <option value="1">Wonen</option>
+	        <option value="2">Onderwijs</option>
+	        <option value="3">Jeugd</option>
+	        <option value="4">Cultuur</option>
+	        <option value="5">Economie</option>
+	        <option value="6">Natuur en groen</option>
+	        <option value="7">Armoede</option>
+	        <option value="8">Werk</option>
+	        <option value="9">Landbouw</option>
+	        <option value="10">Toerisme</option>
+	        <option value="11">Sport</option>
+	        <option value="12">Mobiliteit</option>
+	        <option value="13">Stedelijk Gezondheidsbeleid</option>
+	        <option value="14">Veiligheid</option>
+	    </select> 
+    </div>
+    
+      
+      
+       
+       
+      
+         
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+     
     <script type="text/javascript">
         $(document).ready(function () {
             var myOptions = {
@@ -66,7 +105,7 @@
             }
             
             for(var v=25;v>-1;v--) {
-                $("section").append('<div class="mapscanvas" id="map_canvas' + v + '"></div>');
+                $("section .maps").append('<div class="mapscanvas" id="map_canvas' + v + '"></div>');
                 
                 map = new google.maps.Map(document.getElementById("map_canvas" + v), myOptions);
                 
