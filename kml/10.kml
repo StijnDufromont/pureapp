@@ -1,0 +1,60 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Elisabethbegijnhof - Papegaai</name>
+<Description>
+<![CDATA[
+<id>kml_10</id><fid>9</fid><wijziging>Nee</wijziging><nieuwnr>6</nieuwnr><naam>Kernstad</naam><wijk>Elisabethbegijnhof - Papegaai</wijk><wijknr>6</wijknr><objectid>10</objectid><area>0</area><len>0</len>
+]]>
+</Description>
+<ExtendedData>
+<Data name="id">
+<value>kml_10</value>
+</Data>
+<Data name="fid">
+<value>9</value>
+</Data>
+<Data name="wijziging">
+<value>Nee</value>
+</Data>
+<Data name="nieuwnr">
+<value>6</value>
+</Data>
+<Data name="naam">
+<value>Kernstad</value>
+</Data>
+<Data name="wijk">
+<value>Elisabethbegijnhof - Papegaai</value>
+</Data>
+<Data name="wijknr">
+<value>6</value>
+</Data>
+<Data name="objectid">
+<value>10</value>
+</Data>
+<Data name="area">
+<value>0</value>
+</Data>
+<Data name="len">
+<value>0</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+3.71250980595155,51.0595141041469,0 3.71385277351825,51.0602879041988,0 3.71499071861809,51.0600163931863,0 3.71868634061497,51.0593039135922,0 3.71991993070696,51.0581173811345,0 3.72010623071534,51.0567268955256,0 3.7209408378073,51.0558915476578,0 3.720494137985,51.0548343974179,0 3.7206618949904,51.0537189632371,0 3.72081598649674,51.0522697261312,0 3.72016521637402,51.0506640892617,0 3.72000074083027,51.0497080720947,0 3.71993302183308,51.0489823756966,0 3.72062660430055,51.0469273590971,0 3.71824255095043,51.0467163254994,0 3.71520998195674,51.0471134855386,0 3.71473690144045,51.0472431733702,0 3.71065875104158,51.0502907525811,0 3.71060041451362,51.0505967653398,0 3.71056763395303,51.0506934987332,0 3.70887939289801,51.0556691898215,0 3.70862004774676,51.0563759252476,0 3.70948607319474,51.0567666068502,0 3.70996964629449,51.0565406441795,0 3.71025300899953,51.0567953316868,0 3.71051101349317,51.0570387796727,0 3.71087448870851,51.0585164546988,0 3.71250980595155,51.0595141041469,0
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Style> 
+<PolyStyle>  
+<color>bbfcaa02</color>
+<colorMode>normal</colorMode>
+<outline>1</outline>
+</PolyStyle> 
+</Style>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,60 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Rabot - Blaisantvest</name>
+<Description>
+<![CDATA[
+<id>kml_8</id><fid>7</fid><wijziging>Nee</wijziging><nieuwnr>7</nieuwnr><naam>Kernstad</naam><wijk>Rabot - Blaisantvest</wijk><wijknr>7</wijknr><objectid>8</objectid><area>0</area><len>0</len>
+]]>
+</Description>
+<ExtendedData>
+<Data name="id">
+<value>kml_8</value>
+</Data>
+<Data name="fid">
+<value>7</value>
+</Data>
+<Data name="wijziging">
+<value>Nee</value>
+</Data>
+<Data name="nieuwnr">
+<value>7</value>
+</Data>
+<Data name="naam">
+<value>Kernstad</value>
+</Data>
+<Data name="wijk">
+<value>Rabot - Blaisantvest</value>
+</Data>
+<Data name="wijknr">
+<value>7</value>
+</Data>
+<Data name="objectid">
+<value>8</value>
+</Data>
+<Data name="area">
+<value>0</value>
+</Data>
+<Data name="len">
+<value>0</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+3.72742786218043,51.0681176878542,0 3.72754660002851,51.0668942525149,0 3.72713853246816,51.0669525708038,0 3.7237968350716,51.0660823358864,0 3.72198961176388,51.065643064368,0 3.71966952601222,51.0648245191209,0 3.71912241976221,51.0642686684009,0 3.71883142781245,51.0643240905349,0 3.71806553419632,51.0626068532466,0 3.71629333408501,51.0628349982837,0 3.71608718011348,51.0612655121707,0 3.71499071861809,51.0600163931863,0 3.71385277351825,51.0602879041988,0 3.71250980595155,51.0595141041469,0 3.71087448870851,51.0585164546988,0 3.71051101349317,51.0570387796727,0 3.71025300899953,51.0567953316868,0 3.70996964629449,51.0565406441795,0 3.70948607319474,51.0567666068502,0 3.70862004774676,51.0563759252476,0 3.70848295977194,51.056654387514,0 3.7080258662821,51.057206635421,0 3.70620033726275,51.0596243424424,0 3.70567584631978,51.0602811243046,0 3.70139780226717,51.0643691674264,0 3.7024771051241,51.0645342666961,0 3.70916588440934,51.065577111284,0 3.71223520580944,51.0660581642335,0 3.71716362230646,51.0667855286408,0 3.7232727687774,51.0677236576861,0 3.72500724153249,51.0679969129773,0 3.72742786218043,51.0681176878542,0
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Style> 
+<PolyStyle>  
+<color>bbfcaa02</color>
+<colorMode>normal</colorMode>
+<outline>1</outline>
+</PolyStyle> 
+</Style>
+</Placemark>
+</Document>
+</kml>
