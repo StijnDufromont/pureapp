@@ -1,3 +1,38 @@
-body {
-	
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.mapscanvas { 
+    height: 538px;
+    width: 430px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 185px;
+}
+
+/******************
+Aboutpages
+******************/
+.allDistricts {
+    float: left;
+    border: 1px solid #02AAFC;
+    margin: 0px;
+    width: 170px;
+    -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+            border-radius: 10px;
+    padding: 10px 0;
+}
+
+.allDistricts a {
+    display: block;
+    width: 166px;;
+    padding: 2px;
+}
+
+.allDistricts a:hover {
+    background-color: #02AAFC;
+    color: #FFF;
 }

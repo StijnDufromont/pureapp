@@ -1,0 +1,60 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Macharius - Heirnis</name>
+<Description>
+<![CDATA[
+<id>kml_11</id><fid>10</fid><wijziging>Nee</wijziging><nieuwnr>3</nieuwnr><naam>Kernstad</naam><wijk>Macharius - Heirnis</wijk><wijknr>3</wijknr><objectid>110</objectid><area>0</area><len>0</len>
+]]>
+</Description>
+<ExtendedData>
+<Data name="id">
+<value>kml_11</value>
+</Data>
+<Data name="fid">
+<value>10</value>
+</Data>
+<Data name="wijziging">
+<value>Nee</value>
+</Data>
+<Data name="nieuwnr">
+<value>3</value>
+</Data>
+<Data name="naam">
+<value>Kernstad</value>
+</Data>
+<Data name="wijk">
+<value>Macharius - Heirnis</value>
+</Data>
+<Data name="wijknr">
+<value>3</value>
+</Data>
+<Data name="objectid">
+<value>11</value>
+</Data>
+<Data name="area">
+<value>0</value>
+</Data>
+<Data name="len">
+<value>0</value>
+</Data>
+</ExtendedData>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>
+3.73252980702178,51.0571468364945,0 3.73373166888272,51.0571854782461,0 3.73393850968527,51.0568635403046,0 3.73805969321989,51.0571699358579,0 3.73878741691792,51.0573484134933,0 3.74139434968606,51.0523721480851,0 3.74230935089651,51.0512647308311,0 3.7435361576572,51.0501164010511,0 3.74725501373582,51.0466862864742,0 3.74503904567387,51.0456415208722,0 3.74319809374876,51.0444853542777,0 3.7411156336592,51.0431354451368,0 3.74067861152568,51.0425780290566,0 3.73971614101996,51.0426754317498,0 3.73901628810125,51.0430177837293,0 3.73778130302144,51.0448202764878,0 3.73763942207608,51.0456188618893,0 3.73786015968273,51.0476513412017,0 3.73761603723882,51.0482812504781,0 3.73544481316449,51.050983669463,0 3.73455064461826,51.0535365922251,0 3.73417396127539,51.0547337906703,0 3.73339018467338,51.0562441212884,0 3.73252980702178,51.0571468364945,0
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+<Style> 
+<PolyStyle>  
+<color>bbfcaa02</color>
+<colorMode>normal</colorMode>
+<outline>1</outline>
+</PolyStyle> 
+</Style>
+</Placemark>
+</Document>
+</kml>
