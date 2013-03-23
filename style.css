@@ -35,6 +35,18 @@ a {
 	float: right;
 }
 
+.actiondiv {
+	margin-left: 640px;
+}
+
+.actiondiv .btn {
+	margin-left: 0px;
+	width: 190px;
+}
+
+.hidden{
+	display: none;
+}
 
 .mapscanvas { 
     height: 538px;

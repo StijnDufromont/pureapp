@@ -61,41 +61,29 @@
      
     <div class="actions">  
 	    <select name="category">
-	        <option value="0">Stadsontwikkeling</option>
-	        <option value="1">Wonen</option>
-	        <option value="2">Onderwijs</option>
-	        <option value="3">Jeugd</option>
-	        <option value="4">Cultuur</option>
-	        <option value="5">Economie</option>
-	        <option value="6">Natuur en groen</option>
-	        <option value="7">Armoede</option>
-	        <option value="8">Werk</option>
-	        <option value="9">Landbouw</option>
-	        <option value="10">Toerisme</option>
-	        <option value="11">Sport</option>
-	        <option value="12">Mobiliteit</option>
-	        <option value="13">Stedelijk Gezondheidsbeleid</option>
-	        <option value="14">Veiligheid</option>
+	        <option value="kaartjes">Stadsontwikkeling</option>
+	        <option value="huizen">Wonen</option>
+	        <option value="scholen">Onderwijs</option>
+	        <option value="kinderfietsen">Jeugd</option>
+	        <option value="musea">Cultuur</option>
+	        <option value="euros">Economie</option>
+	        <option value="bomen">Natuur en groen</option>
+	        <option value="armen">Armoede</option>
+	        <option value="werkposten">Werk</option>
+	        <option value="koeien">Landbouw</option>
+	        <option value="restaurants">Toerisme</option>
+	        <option value="voetbalvelden">Sport</option>
+	        <option value="fietsen">Mobiliteit</option>
+	        <option value="ziekenhuizen">Stedelijk Gezondheidsbeleid</option>
+	        <option value="sloten">Veiligheid</option>
 	    </select> 
     </div>
+    <div class="actiondiv hidden">
+	    <p>This district has</p>
+	    <a class="btn" href="#">Trade 1</a>
+	    <a class="btn" href="#">Steal 4</a>
+    </div>
     
-      
-      
-       
-       
-      
-         
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    
-     
     <script type="text/javascript">
         $(document).ready(function () {
             var myOptions = {
@@ -147,14 +135,19 @@
                 }
             }
             
+            $('.actions select').change(function() {
+	        	$('.actiondiv').removeClass("hidden");
+	        	var count = Math.floor((Math.random()*10)+1); 
+	        	$('.actiondiv p').html('Dit district heeft ' + count + ' ' + $(this).val());
+	        	//$('.actiondiv p').html()
+	            //$('input[name="checkedvalue2"]').prop('checked', true);
+	        });
                                   
             $('ul.allDistricts a').hover(function() {                
                 $('.mapscanvas').css("display","none");
                 $('#map_canvas' + $(this).attr('class')).css("display", "block");;
             });
         });
-        
-        
     </script>
         </section>
         
