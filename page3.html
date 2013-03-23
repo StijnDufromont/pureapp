@@ -21,7 +21,7 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['Thema', 'Uw Voorkeur', 'Wijk Voorkeur'],
-          ['Stadsontwikkeling',  1000,      400],
+          ['<img src="resources/iconset1/stadsontwikkeling.png" />Stadsontwikkeling',  1000,      400],
           ['Wonen',  1170,      460],
           ['Onderwijs',  1100,       1120],
           ['Jeugd',  1030,      540],
@@ -43,16 +43,16 @@
           hAxis: {title: 'Voorkeur', titleTextStyle: {color: 'red'}}
         };
 
-        var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
         chart.draw(data, options);
       }
     </script>
   </head>
   <body>
-    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div" style="width: 900px; height: 1000px;"></div>
     <div id="presentation-navigation">
-      <div class="btn-previous btn"><a href="index.html">Previous</a></div>
-      <div class="btn-next btn"><a href="page3.html">Next</a></div>
+      <div class="btn-previous btn"><a href="index.html">Vorige</a></div>
+      <div class="btn-next btn"><a href="page3.html">Volgende</a></div>
     </div>
   </body>
 </html>
